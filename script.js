@@ -19,11 +19,3 @@ document.write(x, "/", y, "=", bagi, "<br>", "<br>")
 
 var modulus = x % y;
 document.write(x, "%", y, "=", modulus, "<br>", "<br>")
-
-var pokok = 1000; 
-var bungaTunggal = (pokok * x * y) / 100;
-document.write("Bunga tunggal: " + bungaTunggal, "<br>", "<br>");
-
-var tahun = 5; 
-var bungaMajemuk = pokok * Math.pow(1 + (x / 100), tahun) - pokok;
-document.write("Bunga majemuk: " + bungaMajemuk, "<br>", "<br>");
