@@ -1,4 +1,5 @@
-// Mendefinisikan nilai x dan y
+alert("hello world")
+
 var x = 5;
 var y = 10;
 
